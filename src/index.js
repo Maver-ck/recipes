@@ -1,9 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import RecipesHeader from "./RecipesHeader";
 
 class App extends React.Component {
   render() {
-    return <div>Testes</div>;
+    return <RecipesHeader />;
   }
 }
 
