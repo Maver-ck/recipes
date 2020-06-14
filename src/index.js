@@ -1,11 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import RecipesHeader from "./RecipesHeader";
-
-class App extends React.Component {
-  render() {
-    return <RecipesHeader />;
-  }
-}
+import App from "./components/App";
 
 ReactDOM.render(<App />, document.querySelector("#root"));
